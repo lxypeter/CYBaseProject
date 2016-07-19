@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1A140BA1D3E4CDF00D77589 /* NSString+CYVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A140B11D3E4CDF00D77589 /* NSString+CYVerification.m */; };
+		E1A140BB1D3E4CDF00D77589 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A140B41D3E4CDF00D77589 /* UIColor+HexString.m */; };
+		E1A140BC1D3E4CDF00D77589 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A140B71D3E4CDF00D77589 /* UIView+Frame.m */; };
+		E1A140BD1D3E4CDF00D77589 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A140B91D3E4CDF00D77589 /* UIView+Toast.m */; };
 		E1CC2EDC1D3E0C1B005FEA04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CC2EDB1D3E0C1B005FEA04 /* ViewController.m */; };
 		E1CC33B51D3E0C86005FEA04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CC2EEF1D3E0C85005FEA04 /* AppDelegate.m */; };
 		E1CC33B61D3E0C86005FEA04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC2EF01D3E0C85005FEA04 /* LaunchScreen.storyboard */; };
@@ -110,6 +114,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1A140B01D3E4CDF00D77589 /* NSString+CYVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CYVerification.h"; sourceTree = "<group>"; };
+		E1A140B11D3E4CDF00D77589 /* NSString+CYVerification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CYVerification.m"; sourceTree = "<group>"; };
+		E1A140B31D3E4CDF00D77589 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		E1A140B41D3E4CDF00D77589 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		E1A140B61D3E4CDF00D77589 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		E1A140B71D3E4CDF00D77589 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		E1A140B81D3E4CDF00D77589 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		E1A140B91D3E4CDF00D77589 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		E1CC2ED11D3E0C1B005FEA04 /* CYBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CC2EDA1D3E0C1B005FEA04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E1CC2EDB1D3E0C1B005FEA04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -333,6 +345,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1A140AF1D3E4CDF00D77589 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E1A140B01D3E4CDF00D77589 /* NSString+CYVerification.h */,
+				E1A140B11D3E4CDF00D77589 /* NSString+CYVerification.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		E1A140B21D3E4CDF00D77589 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E1A140B31D3E4CDF00D77589 /* UIColor+HexString.h */,
+				E1A140B41D3E4CDF00D77589 /* UIColor+HexString.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E1A140B51D3E4CDF00D77589 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E1A140B61D3E4CDF00D77589 /* UIView+Frame.h */,
+				E1A140B71D3E4CDF00D77589 /* UIView+Frame.m */,
+				E1A140B81D3E4CDF00D77589 /* UIView+Toast.h */,
+				E1A140B91D3E4CDF00D77589 /* UIView+Toast.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		E1CC2EC81D3E0C1B005FEA04 = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +472,9 @@
 		E1CC2EFD1D3E0C85005FEA04 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E1A140AF1D3E4CDF00D77589 /* NSString */,
+				E1A140B21D3E4CDF00D77589 /* UIColor */,
+				E1A140B51D3E4CDF00D77589 /* UIView */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -958,7 +1002,9 @@
 				E1CC36DF1D3E1195005FEA04 /* UIView+MJExtension.m in Sources */,
 				E1CC36C71D3E1195005FEA04 /* MASViewConstraint.m in Sources */,
 				E1CC36A41D3E1195005FEA04 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				E1A140BB1D3E4CDF00D77589 /* UIColor+HexString.m in Sources */,
 				E1CC36DE1D3E1195005FEA04 /* UIScrollView+MJRefresh.m in Sources */,
+				E1A140BD1D3E4CDF00D77589 /* UIView+Toast.m in Sources */,
 				E1CC35B01D3E0C87005FEA04 /* CLIColor.m in Sources */,
 				E1CC36ED1D3E1195005FEA04 /* UIImage+WebP.m in Sources */,
 				E1CC36B21D3E1195005FEA04 /* IQTitleBarButtonItem.m in Sources */,
@@ -979,9 +1025,11 @@
 				E1CC36DC1D3E1195005FEA04 /* MJRefreshConst.m in Sources */,
 				E1CC33B81D3E0C86005FEA04 /* main.m in Sources */,
 				E1CC36C61D3E1195005FEA04 /* MASViewAttribute.m in Sources */,
+				E1A140BA1D3E4CDF00D77589 /* NSString+CYVerification.m in Sources */,
 				E1CC36B81D3E1195005FEA04 /* JGProgressHUDAnimation.m in Sources */,
 				E1CC36E91D3E1195005FEA04 /* SDWebImagePrefetcher.m in Sources */,
 				E1CC36EB1D3E1195005FEA04 /* UIImage+GIF.m in Sources */,
+				E1A140BC1D3E4CDF00D77589 /* UIView+Frame.m in Sources */,
 				E1CC36CB1D3E1195005FEA04 /* ViewController+MASAdditions.m in Sources */,
 				E1CC36A31D3E1195005FEA04 /* AFURLSessionManager.m in Sources */,
 				E1CC36CE1D3E1195005FEA04 /* MJRefreshBackFooter.m in Sources */,

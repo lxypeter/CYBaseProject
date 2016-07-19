@@ -18,9 +18,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>UIAppFonts</key>
-	<array>
-		<string>Microsoft Yahei.ttf</string>
-	</array>
+	<array/>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
