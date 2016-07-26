@@ -12,10 +12,14 @@
 
 @interface UIColor (HexString)
 
-#pragma mark 颜色转换，由颜色编码，转化为UIColor对象
+/**
+ *  颜色转换，由颜色编码，转化为UIColor对象
+ */
 - (id) initColorWithHexString:(NSString *) stringToConvert;
 
-#pragma mark 颜色转换，由颜色编码，转化为UIColor对象
+/**
+ *  颜色转换，由颜色编码，转化为UIColor对象
+ */
 + (id) colorWithHexString:(NSString *) stringToConvert;
 
 @end
